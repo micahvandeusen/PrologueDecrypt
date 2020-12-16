@@ -13,19 +13,16 @@ namespace PrologueDecrypt
         {
             if (args.Length <= 0 || args[0] == "help" || args[0] == "?")
             {
-                help();
+                Console.WriteLine();
+                Console.WriteLine("How to use Prologue Decrypt");
+                Console.WriteLine("======================");
+                Console.WriteLine(@"c:\> PrologueDecrypt.exe <encrypted string excluding the @ symbol>");
+                Console.WriteLine();
             }
-            Console.WriteLine(((IEngine)new Engine()).decrypt("~{(#@&TORY<>?:[", args[0]));
-        }
-
-        private static void help()
-        {
-            Console.WriteLine();
-            Console.WriteLine("How to use Prologue Decrypt");
-            Console.WriteLine("======================");
-            Console.WriteLine(@"c:\> PrologueDecrypt.exe <encrypted string excluding the @ symbol>");
-            Console.WriteLine();
-
+            else
+            {
+                Console.WriteLine(((IEngine)new Engine()).decrypt("~{(#@&TORY<>?:[", args[0]));
+            }
         }
     }
 }
