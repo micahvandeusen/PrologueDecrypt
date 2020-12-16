@@ -1,13 +1,11 @@
 # PrologueDecrypt
  
-Description
-============
+## Description
 
 Prologue uses a static encryption key across all installations.
  PrologueDecrypt is an offensive security C# tool designed to decrypt these passwords located in Prologue config files.
 
-Setup
-==============================
+## Setup
 
 1. Download PrologueDecrypt
 
