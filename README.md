@@ -1,4 +1,4 @@
-# PrologueDecrypt
+# PrologueDecrypt (CVE-2020-35992)
  
 ## Description
 
