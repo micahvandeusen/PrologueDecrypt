@@ -3,7 +3,7 @@
 ## Description
 
 Fiserv Prologue uses a static encryption key across all installations.
- PrologueDecrypt is an offensive security C# tool designed to decrypt the passwords located in Prologue config files.
+ PrologueDecrypt is an offensive security C# tool designed to decrypt the database passwords located in Prologue config files.
 
 ## Setup
 
